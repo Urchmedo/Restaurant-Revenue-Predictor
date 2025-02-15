@@ -16,7 +16,7 @@ Seating_Capacity = st.slider("Seating Capacity", min_value=0, max_value=100, val
 Average_Meal_Price= st.slider("Average Meal Price", min_value=0, max_value=100, value=20)
 Marketing_Budget = st.slider("Marketing Budget", min_value=0, max_value=100, value=20)
 Social_Media_Followers = st.slider("Social Media Followers", min_value=0, max_value=100, value=20)
-Chef_Experience_Years = st.slider(""Chef Experience Years"", min_value=0, max_value=100, value=20)
+Chef_Experience_Years = st.slider("Chef Experience Years", min_value=0, max_value=100, value=20)
 
 # After selesting Revenue, the user then submits the price value
 if st.button("Predict"):

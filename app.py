@@ -20,5 +20,5 @@ Marketing_Budget = st.slider("Marketing Budget", min_value=0, max_value=10000, v
 # After selesting Revenue, the user then submits the price value
 if st.button("Predict"):
   # take the price value, and format the value the right way
-  prediction = model.predict([[Seating Capacity, Average Meal Price, Marketing Budget]])[0].round(2)
+  prediction = model.predict([[Seating_Capacity, Average_Meal_Price, Marketing_Budget]])[0].round(2)
   st.write("Expected Revenue ", prediction, "thousand dollars")

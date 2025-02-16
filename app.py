@@ -8,7 +8,7 @@ with open("model.pkl", "rb") as f:
   model = pickle.load(f)
 
 # give the Streamlit app page a title
-st.title("Resurant Revenue Predictor")
+st.title("Restaurant Revenue Predictor")
 
 # input widget for getting user values for X (feature matrix value)
 Seating_Capacity = st.slider("Seating Capacity", min_value=0, max_value=100, value=20)
